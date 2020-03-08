@@ -1,0 +1,438 @@
+html {
+  font: 12pt Arial;
+}
+
+
+/*----------- Body welcome Barber------------*/
+body#welcomeBarber {
+  background: url(welcomeBarber.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  font: 15pt Comic Sans MS;
+  position: absolute;
+  right: 550px;
+  width: 600px;
+  height:270px;
+  margin: 100px auto 100px auto;
+}
+/*----------- Body welcome administrator------------*/
+body#WelcomeAdm {
+  background: url(welcomeAdm1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  font: 10pt Comic Sans MS;
+  position: absolute;
+  right: 550px;
+  width: 600px;
+  height:270px;
+  margin: 100px auto 100px auto;
+
+}
+
+body{
+  background: url(barber6.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+}
+
+/*----------- Menu------------*/
+nav#menu {
+
+  display:block;
+
+}
+
+nav#menu ul {
+
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -20px;
+  left: 450px;
+}
+nav#menu li{
+
+  display: inline-block;
+  background-color:  #000000;
+  padding: 10px;
+  margin: 2px;
+  transition: background-color:1s;
+}
+nav#menu li:hover{
+
+  background-color: #808080;
+}
+nav#menu h1{
+  display: none;
+
+}
+nav#menu a{
+
+  color: #ffffff;
+  text-decoration: none;
+
+}
+nav#menu a:hover{
+  color: #ffffff;
+  }/*----------- Menu after Barber login 1------------*/
+  nav#MenuWelcomeBarber{
+
+    display:block;
+
+  }
+
+  nav#MenuWelcomeBarber ul {
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 65px;
+    left: -15px;
+  }
+  nav#MenuWelcomeBarber li{
+
+    display: inline-block;
+    background-color:  #273747;
+    padding: 10px;
+    margin: 5px;
+    transition: background-color:1s;
+  }
+  nav#MenuWelcomeBarber li:hover{
+
+    background-color: #808080;
+  }
+
+  nav#MenuWelcomeBarber a{
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+  }
+  nav#MenuWelcomeBarber a:hover{
+    color: #ffffff;
+  }
+  /*----------- Menu after Admin login 1------------*/
+  nav#MenuWelcomeAdm{
+
+    display:block;
+
+  }
+
+  nav#MenuWelcomeAdm ul {
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 65px;
+    left: -15px;
+  }
+  nav#MenuWelcomeAdm li{
+
+    display: inline-block;
+    background-color:  #273747;
+    padding: 10px;
+    margin: 5px;
+    transition: background-color:1s;
+  }
+  nav#MenuWelcomeAdm li:hover{
+
+    background-color: #808080;
+  }
+
+  nav#MenuWelcomeAdm a{
+
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+  nav#MenuWelcomeAdm a:hover{
+    color: #ffffff;
+  }
+  /*----------- Menu after Admin login 2------------*/
+  nav#menuAfterLogin {
+
+    display:block;
+
+  }
+
+  nav#menuAfterLogin ul {
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 850px;
+  }
+  nav#menuAfterLogin li{
+
+    display: inline-block;
+    background-color:  #273747;
+    padding: 10px;
+    margin: 5px;
+    transition: background-color:1s;
+  }
+  nav#menuAfterLoginli:hover{
+
+    background-color: #808080;
+  }
+  nav#menuAfterLogin h1{
+    display: none;
+
+  }
+  nav#menuAfterLogin a{
+
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+  nav#menuAfterLogin a:hover{
+    color: #ffffff;
+  }
+  /*----------- Index Menu-----------*/
+  nav#MenuIndex{
+
+    display:block;
+
+  }
+
+  nav#MenuIndex ul {
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 65px;
+    left: -15px;
+  }
+  nav#MenuIndex li{
+
+    display: inline-block;
+    background-color:  #273747;
+    padding: 10px;
+    margin: 5px;
+    transition: background-color:1s;
+  }
+  nav#MenuIndex li:hover{
+
+    background-color: #808080;
+  }
+
+  nav#MenuIndex a{
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+  }
+  nav#MenuIndex a:hover{
+    color: #ffffff;
+  }
+  /*-------------text set ------------*/
+  nav#rigtext{
+    background-color: rgba(255,255,255,.8);
+    margin: 100px auto 500px auto;
+    padding: 10px;
+    min-height:200px;
+    position: absolute;
+    right: 150px;
+    width: 500px;
+    height: 120px;
+    border: 5px solid #8c8c8c;
+
+
+    }/*-----------adm booking details----------*/
+    div.bookingdetails::before {
+
+      content: " Details";
+      font: 10pt Arial;
+      font-weight: bold;
+      color: white;
+      background-color: #273747;
+      padding: 5px;
+      display: block;
+      position: relative;
+      top: -10px;
+      left: -10px;
+      width: auto;
+
+    }
+    div.bookingdetails {
+      background-color: rgba(255,255,255,.8);
+      margin: 100px 100px 100px 100px;
+      padding: 10px;
+      width: auto;
+      position: relative;
+      left: 250px;
+    }
+
+    /*-----------adm barber details----------*/
+    div.barberdetails::before {
+
+      content: "  Details";
+      font: 10pt Arial;
+      font-weight: bold;
+      color: white;
+      background-color: #273747;
+      padding: 5px;
+      display: block;
+      position: relative;
+      top: -10px;
+      left: -10px;
+      width: 810px;
+
+    }
+    div.barberdetails {
+      background-color: rgba(255,255,255,.8);
+      margin: 100px auto 100px auto;
+      padding: 10px;
+      width: 800px;
+      position: relative;
+      left: 250px;
+    }
+
+    /*-----------HOME----------*/
+    div.homepadrao::before {
+
+      content: "  Welcome ";
+      font: 10pt Arial;
+      font-weight: bold;
+      color: white;
+      background-color: #273747;
+      padding: 5px;
+      display: block;
+      position: relative;
+      top: -10px;
+      left: -10px;
+      width: 560px;
+
+    }
+    div.homepadrao {
+      background-color: rgba(255,255,255,.8);
+      margin: 100px auto 100px auto;
+      padding: 10px;
+      width: 550px;
+      position: relative;
+      left: 350px;
+    }
+
+    /*-----------login Adm----------*/
+    div.admpadrao::before {
+
+      content: "  Administrator ";
+      font: 10pt Arial;
+      font-weight: bold;
+      color: white;
+      background-color: #273747;
+      padding: 5px;
+      display: block;
+      position: relative;
+      top: -10px;
+      left: -10px;
+      width: 560px;
+    }
+    div.admpadrao {
+      background-color: rgba(255,255,255,.8);
+      margin: 100px auto 100px auto;
+      padding: 10px;
+      width: 550px;
+      position: relative;
+      left: 350px;
+    }
+
+    /*-----------login customer----------*/
+    div.lpadrao::before {
+
+      content: "  Customer ";
+      font: 10pt Arial;
+      font-weight: bold;
+      color: white;
+      background-color: #273747;
+      padding: 5px;
+      display: block;
+      position: relative;
+      top: -10px;
+      left: -10px;
+      width: 560px;
+    }
+
+    div.lpadrao {
+      background-color: rgba(255,255,255,.8);
+      margin: 100px auto 100px auto;
+      padding: 10px;
+      width: 550px;
+      position: relative;
+      left: 350px;
+    }
+
+    /*-----------login/register Barber----------*/
+    div.barbpadrao::before {
+      content: "  Baber/Hairdresser! ";
+      font: 10pt Arial;
+      font-weight: bold;
+      color: white;
+      background-color: #273747;
+      padding: 5px;
+      display: block;
+      position: relative;
+      top: -10px;
+      left: -10px;
+      width: 560px;
+    }
+
+    div.barbpadrao {
+      background-color: rgba(255,255,255,.8);
+      margin: 100px auto 100px auto;
+      padding: 10px;
+      width: 550px;
+      position: relative;
+      left: 350px;
+    }
+
+    /*----------Button inside menu----------*/
+    .button {
+      background-color: #273747;
+      border: none;
+      color: white;
+      padding: 2px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    .insert {
+      background-color: #ff6666;
+      border: none;
+      color: white;
+      padding: 2px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 11px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+
+
+    a {
+      color: #273747;
+      text-decoration: none;
+      font-weight: bold;
+      font: 10pt Helvetica;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    span.foco {
+      font-weight: bold;
+      color: #7e050c;
+    }
