@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 16, 2018 at 02:07 AM
+-- Generation Time: Dec 16, 2018 at 03:49 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -73,6 +73,7 @@ INSERT INTO `barber` (`barber_email`, `admin_email`, `barber_password`, `barber_
 ('felipe@hotmail.com', NULL, 'Sue123456*', 'Felipe', 'Leite', '074589658 ', 'D2', '60,Harcourt St', 'Y'),
 ('james@hotmail.com', NULL, 'Sue123456*', 'James', 'Campos', '085745692 ', 'D8', '96,Portobello', 'Y'),
 ('james_arlos@gmail.com', NULL, 'SUe123456*', 'James ', 'Carlos', '096586523 ', 'D14', '30,windy Arbour', 'Y'),
+('juliano@hotmail.com', NULL, 'Sue123456*', 'Juliano', 'Mariuz', '08395684235', 'D14', 'windyArbour', 'Y'),
 ('mario@hotmail.com', NULL, 'Sue123456*', 'Mario', 'Oliveira', '09856325 ', 'D1', '05, Dorset Street Lo', NULL),
 ('morgan@hotmail.com', NULL, 'Sue123456*', 'Morgan', 'ONeills', '0859865966 ', 'D7', '85,Phibsboro', 'Y'),
 ('roberto@hotmail.com', NULL, 'Sue123456*', 'Roberto', 'Felipino', '085798563 ', 'D6', '12,Olivemount road', 'Y'),
@@ -107,7 +108,7 @@ INSERT INTO `booking` (`id_booking`, `admin_email`, `barber_email`, `customer_em
 (213, NULL, 'athur@hotmail.com', 'alex@hotmail.com', '2019-02-02', '20:00:00', 'Y', 'DONE', NULL, 'GREAT'),
 (214, NULL, 'cleiton@hotmail.com', 'francisco@hotmail.com', '2019-03-01', '18:00:00', NULL, NULL, NULL, NULL),
 (215, NULL, 'cleiton@hotmail.com', NULL, '2019-02-19', '15:30:00', NULL, NULL, NULL, NULL),
-(216, NULL, 'alejandro@gmail.com', NULL, '2019-01-06', '20:30:00', NULL, NULL, NULL, NULL),
+(216, NULL, 'alejandro@gmail.com', 'marcela@hotmail.com', '2019-01-06', '20:30:00', NULL, NULL, NULL, NULL),
 (217, NULL, 'alejandro@gmail.com', 'margareth@hotmail.com', '2019-02-16', '19:00:00', NULL, NULL, NULL, NULL),
 (218, NULL, 'felipe@hotmail.com', NULL, '2019-05-20', '09:00:00', NULL, NULL, NULL, NULL),
 (219, NULL, 'james@hotmail.com', NULL, '2019-03-03', '16:20:00', NULL, NULL, NULL, NULL),
@@ -116,7 +117,8 @@ INSERT INTO `booking` (`id_booking`, `admin_email`, `barber_email`, `customer_em
 (222, NULL, 'roberto@hotmail.com', NULL, '2019-09-03', '16:40:00', NULL, NULL, NULL, NULL),
 (223, NULL, 'roberto@hotmail.com', 'reginaldo@hotmail.com', '2019-02-09', '09:50:00', 'Y', 'DONE', 'I DID NOT LIKE IT!', '.'),
 (224, NULL, 'rogerio@hotmail.com', 'reginaldo@hotmail.com', '2019-02-03', '09:30:00', 'Y', NULL, NULL, NULL),
-(225, NULL, 'rogerio@hotmail.com', NULL, '2019-02-09', '08:00:00', NULL, NULL, NULL, NULL);
+(225, NULL, 'rogerio@hotmail.com', NULL, '2019-02-09', '08:00:00', NULL, NULL, NULL, NULL),
+(226, NULL, 'athur@hotmail.com', NULL, '2019-11-01', '16:00:00', NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -140,6 +142,7 @@ CREATE TABLE `customer` (
 INSERT INTO `customer` (`customer_email`, `admin_emaill`, `customer_password`, `customer_first_name`, `customer_last_name`, `customer_phone`) VALUES
 ('alex@hotmail.com ', NULL, 'Sue123456*', 'Alex', 'Campos', '089856365'),
 ('francisco@hotmail.com', NULL, 'Sue123456*', 'Franc', 'Miguel', '098636589'),
+('marcela@hotmail.com', NULL, 'Sue123456*', 'Marcela', 'Santos', '085985985'),
 ('margareth@hotmail.com', NULL, 'Sue123456*', 'Margareth', 'Karine', '087459634'),
 ('reginaldo@hotmail.com', NULL, 'Sue123456*', 'Reginaldo', 'Galiazo', '09863598');
 
@@ -184,7 +187,7 @@ ALTER TABLE `customer`
 -- AUTO_INCREMENT for table `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `id_booking` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=226;
+  MODIFY `id_booking` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=227;
 
 --
 -- Constraints for dumped tables
